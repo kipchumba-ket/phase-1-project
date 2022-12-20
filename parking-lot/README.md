@@ -21,8 +21,8 @@ To run the app on your machine;
 Open the html file in the browser of you choice.
 
 
-AUTHOR.
+# AUTHOR.
 This project was done by: Kipchumba Elly
 
-LICENSE.
+# LICENSE.
 This project is under license Apache 2.0
