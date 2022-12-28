@@ -71,10 +71,10 @@ Insurance.prototype.calculateQuote= function(insurance){
     switch(make){
         case '1':price=base*1.30;
                 break;
-        case '2':price=base*1.25;
+        case '2':price=base*1.20;
                 break;
-        case '3':price=base*1.20;
-                break;  
+        case '3':price=base*1.10;
+                break;      
         case '4':price=base*1.17;
                 break;
         case '5':price=base*1.18;
@@ -92,7 +92,7 @@ Insurance.prototype.calculateQuote= function(insurance){
         case '11':price=base*1.15;
                 break;
         case '12':price=base*1.26;
-                break;         
+                break;              
     }
     // calculating difference
     const year=insurance.year;
@@ -175,33 +175,6 @@ HTMLUI.prototype.showResults=function(price,insurance){
             break;
         case '3':
             make='Audi';
-            break;
-         case '4':
-            make='Toyota';
-            break;
-        case '5':
-            make='Mazda';
-            break;
-        case '6':
-            make='Mercedes Benz';
-            break;
-        case '7':
-            make='Porsche Cayene';
-            break;
-        case '8':
-            make='Range Rover';
-            break;
-        case '9':
-            make='BMW';
-            break;
-        case '10':
-            make='Land Rover';
-            break;
-        case '11':
-            make='Ford';
-            break;
-        case '12':
-            make='Maserati';
             break;
     }
     div.innerHTML=`
