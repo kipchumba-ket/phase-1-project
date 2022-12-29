@@ -176,6 +176,33 @@ HTMLUI.prototype.showResults=function(price,insurance){
         case '3':
             make='Audi';
             break;
+        case '4':
+            make='Toyota';
+            break;
+        case '5':
+            make='Mazda';
+             break;
+        case '6':
+            make='Mercedes Benz';
+            break;
+        case '7':
+             make='Porsche Cayene';
+            break;
+        case '8':
+            make='Range Rover';
+            break;
+         case '9':
+            make='BMW';
+            break;
+        case '10':
+            make='Land Rover';
+            break;
+        case '11':
+            make='Ford';
+            break;
+        case '12':
+            make='Maserati';
+            break;    
     }
     div.innerHTML=`
     <p class="header">Summary </p>
